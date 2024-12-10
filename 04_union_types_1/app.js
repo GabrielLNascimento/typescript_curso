@@ -1,0 +1,14 @@
+"use strict";
+let frutas = ["banana", "melancia", "uva"];
+frutas.push("maçã");
+console.log(frutas);
+let valores = [10, 200, 2024];
+valores.push(99);
+console.log(valores);
+let vteste;
+vteste = "Gabriel";
+vteste = 17;
+let nteste;
+nteste = "Gabriel";
+nteste = 17;
+nteste = true;

@@ -1,0 +1,24 @@
+instalar o typescript
+npm install -g typescript
+
+biblioteca "JavaScript and TypeScript Nightly"
+
+comando para compilar
+- tsc app.ts
+
+rodar o arquivo compilado
+- node app.js
+
+especificar uma versão
+- tsc app.ts --target "ES2016"
+
+criar arquivo de configuração (pasta 02)
+- tsc --init
+
+"target": "ESNext" -> ultima versão
+
+"outDir": "./" -> onde vai sair os arquivos compilados para .js
+"rootDirs": [] -> vai ficar os arquivos .ts
+
+comando para monitar os arquivos .ts
+- tsc -w  -> nao precisa mais compilar
