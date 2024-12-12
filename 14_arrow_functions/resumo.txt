@@ -1,0 +1,5 @@
+--> estrutura da arrow functions
+
+const <nome> = (params: tipo): <tipo> => { // codigo // }
+
+** declarar uma arrow function sempre vai ser associada a uma constante
