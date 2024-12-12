@@ -1,0 +1,16 @@
+** parametros podem ser opcionais ou padrões
+
+--> na estrutura da função
+function <nome>(param: tipo) { // codigo // }
+
+eu posso adicionar valor padrão dentro dos parenteses
+(param: tipo = [valor padrão]) ...
+
+* desta forma nao preciso colocar valor para todos os parametros quando eu chamo a função
+
+--> para tornar um parametro opcional
+
+** basta colocar um ponto de interrogação "?" dps do nome do parametro
+(param?: tipo) ...
+
+* caso eu não passe o paramentros, o valor dele fica como undefined
