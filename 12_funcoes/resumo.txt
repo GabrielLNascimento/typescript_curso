@@ -1,0 +1,10 @@
+** precisamos declarar os tipos dos parametros na função e no retorno também
+
+estrutura:
+
+function <nome>(parametros: tipo):<tipo de retorno> { // codigo // }
+
+--> tipo de retorno:
+* caso nao seja nada, coloca "void" (especificar quando não retornar nada)
+
+** ela só vai ser executada quando for chamada
