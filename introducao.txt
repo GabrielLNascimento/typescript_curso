@@ -1,0 +1,14 @@
+comandos:
+instalar:
+- npm install typescript --save-dev
+- npm install ts-node --save-dev
+
+configurar code-runner:
+executar arquivos .ts
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node --files"
+    },
+
+configurar compilar arquivos .ts
+- tsc index.ts --outDir ./dist
+posso colocar um script no package.json
