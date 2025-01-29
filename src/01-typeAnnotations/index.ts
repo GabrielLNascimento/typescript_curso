@@ -35,10 +35,11 @@ function soma(x: number, y: number): number {
     return x + y;
 }
 // variavel automaticamente, recebe o tipo
-const result = soma(2, 2)
-
+const result = soma(2, 2);
 
 // (x: number, y: number) -> tipagem da arrow function
 // => number -> retorna number
 // (x, y) => x + y -> arrow function em si
-const soma2: (x: number, y: number) => number = (x, y) => x + y
+const soma2: (x: number, y: number) => number = (x, y) => x + y;
+
+export { soma };
